@@ -1,4 +1,4 @@
-📊 Vendor Performance Analysis
+# 📊 Vendor Performance Analysis
 # Overview
 This project combines Python, SQL, and Power BI to deliver a comprehensive Vendor Performance Analysis for the retail and wholesale sector. It demonstrates an end-to-end workflow — from data ingestion and transformation to visual analytics and KPI dashboards — to identify top-performing vendors, underperforming brands, and opportunities to optimize procurement and pricing decisions.
 
