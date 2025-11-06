@@ -3,26 +3,26 @@
 This project combines Python, SQL, and Power BI to deliver a comprehensive Vendor Performance Analysis for the retail and wholesale sector. It demonstrates an end-to-end workflow — from data ingestion and transformation to visual analytics and KPI dashboards — to identify top-performing vendors, underperforming brands, and opportunities to optimize procurement and pricing decisions.
 
 # Business Problem
-In retail and wholesale, profitability can be eroded by poor pricing, inefficient vendor management, and slow inventory turnover.
-This project addresses those challenges by:
-🏷️ Identifying underperforming brands needing promotional or pricing adjustments.
-💰 Highlighting top vendors driving sales and gross profit.
-📦 Analyzing how bulk purchasing impacts unit costs.
-🔄 Evaluating inventory turnover to reduce holding costs.
-📈 Assessing profitability variance between high- and low-performing vendors.
+In retail and wholesale, profitability can be eroded by poor pricing, inefficient vendor management, and slow inventory turnover.\
+This project addresses those challenges by:\
+🏷️ Identifying underperforming brands needing promotional or pricing adjustments.\
+💰 Highlighting top vendors driving sales and gross profit.\
+📦 Analyzing how bulk purchasing impacts unit costs.\
+🔄 Evaluating inventory turnover to reduce holding costs.\
+📈 Assessing profitability variance between high- and low-performing vendors.\
 
 # Project Structure
-Vendor-Performance-Analysis/
-│
-├── ingestion_db.py                     # Ingests CSVs into SQLite database
-├── Exploratory Data Analysis.ipynb      # Python-based analysis and insights
-├── PDF - Vendor Performance Analysis.pdf # Summary PDF version of analysis
-├── PowerBI_Dashboard/                   # Power BI file & screenshots
-│   ├── Vendor_Performance.pbix
-│   └── dashboard_preview.png
-├── logs/                                # Ingestion logs
-├── data/                                # Raw CSV data
-└── README.md                            # Project documentation
+Vendor-Performance-Analysis/\
+│\
+├── ingestion_db.py                     # Ingests CSVs into SQLite database\
+├── Exploratory Data Analysis.ipynb      # Python-based analysis and insights\
+├── PDF - Vendor Performance Analysis.pdf # Summary PDF version of analysis\
+├── PowerBI_Dashboard/                   # Power BI file & screenshots\
+│   ├── Vendor_Performance.pbix\
+│   └── dashboard_preview.png\
+├── logs/                                # Ingestion logs\
+├── data/                                # Raw CSV data\
+└── README.md                            # Project documentation\
 
 # Analytical Workflow
 ## Python Phase
