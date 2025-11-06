@@ -42,9 +42,11 @@ Vendor-Performance-Analysis/\
    Each visual ties back to analytical findings derived in Python, providing a real-time, interactive representation of vendor performance.
 
 # Tech Stack
-Category |	Tools Used\
-Programming & Analysis	| Python (Pandas, NumPy, Seaborn, Matplotlib)\
-Database |	SQLite via SQLAlchemy\
-Visualization	| Power BI\
-Scripting |	Python-based data ingestion\
-Statistical Testing	| Confidence intervals, t-tests\
+| Category             | Tools Used                                         |
+|----------------------|----------------------------------------------------|
+| Programming & Analysis | Python (Pandas, NumPy, Seaborn, Matplotlib)      |
+| Database             | SQLite via SQLAlchemy                              |
+| Visualization        | Power BI                                           |
+| Scripting            | Python-based data ingestion                        |
+| Statistical Testing  | Confidence intervals, t-tests                      |
+
