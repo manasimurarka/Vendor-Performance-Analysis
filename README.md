@@ -30,10 +30,10 @@ Vendor-Performance-Analysis/\
 2. *Data Cleaning:* Filtering invalid rows (zero sales, negative profits).
 3. *EDA:* Summary stats, correlations, and outlier detection.
 4. *Analysis:*
-  * Profitability comparison across vendors.
-  * Statistical tests (t-test, confidence intervals).
-  * Bulk purchase cost savings.
-  * Unsold inventory valuation.
+    * Profitability comparison across vendors.
+    * Statistical tests (t-test, confidence intervals).
+    * Bulk purchase cost savings.
+    * Unsold inventory valuation.
 ## Power BI Phase
 1. *Python Data Connection:* Used Python script to import the cleaned dataset from SQLite.
 2. *Transformations:* Applied Power Query filters to refine vendor summary data.
