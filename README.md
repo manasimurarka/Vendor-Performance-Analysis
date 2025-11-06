@@ -39,7 +39,7 @@ Vendor-Performance-Analysis/\
 2. *Transformations:* Applied Power Query filters to refine vendor summary data.
 3. *DAX Calculations:* Created calculated tables, columns, and measures for KPIs.
 4. *Dashboard Design*\
-   Each visual ties back to analytical findings derived in Python, providing a real-time, interactive representation of vendor performance.
+Each visual ties back to analytical findings derived in Python, providing a real-time, interactive representation of vendor performance.
 
 # Tech Stack
 | Category             | Tools Used                                         |
