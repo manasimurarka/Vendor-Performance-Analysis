@@ -15,14 +15,13 @@ This project addresses those challenges by:\
 Vendor-Performance-Analysis/\
 │\
 ├── ingestion_db.py                     # Ingests CSVs into SQLite database\
-├── Exploratory Data Analysis.ipynb      # Python-based analysis and insights\
-├── PDF - Vendor Performance Analysis.pdf # Summary PDF version of analysis\
-├── PowerBI_Dashboard/                   # Power BI file & screenshots\
-│   ├── Vendor_Performance.pbix\
-│   └── dashboard_preview.png\
-├── logs/                                # Ingestion logs\
-├── data/                                # Raw CSV data\
-└── README.md                            # Project documentation\
+├── get_vendor_summary.py               # Script to get cleaned vendor summary table and ingest into database\
+├── Exploratory Data Analysis.ipynb     # Python-based analysis and insights\
+├── Vendor Performance Analysis         # Pyhon-based Vendor performance specific analysis\
+├── Dashboard.pbix                      # Power BI file
+├── logs/                               # Ingestion logs\
+├── data/                               # Raw CSV data (Sample)\
+└── README.md                           # Project documentation\
 
 # Analytical Workflow
 ## Python Phase
@@ -40,6 +39,8 @@ Vendor-Performance-Analysis/\
 3. *DAX Calculations:* Created calculated tables, columns, and measures for KPIs.
 4. *Dashboard Design*\
 Each visual ties back to analytical findings derived in Python, providing a real-time, interactive representation of vendor performance.
+<img width="1295" height="730" alt="Screenshot Dashboard" src="https://github.com/user-attachments/assets/39d1efba-b8ac-4bf4-b6a3-18ccf52454ae" />
+
 
 # Tech Stack
 | Category             | Tools Used                                         |
