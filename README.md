@@ -23,6 +23,16 @@ Vendor-Performance-Analysis/\
 ├── data/                               # Raw CSV data (Sample)\
 └── README.md                           # Project documentation\
 
+# Tech Stack
+| Category             | Tools Used                                         |
+|----------------------|----------------------------------------------------|
+| Programming & Analysis | Python (Pandas, NumPy, Seaborn, Matplotlib)      |
+| Database             | SQLite via SQLAlchemy                              |
+| Visualization        | Power BI                                           |
+| Scripting            | Python-based data ingestion                        |
+| Statistical Testing  | Confidence intervals, t-tests                      |
+
+
 # Analytical Workflow
 ## Python Phase
 1. *Data Ingestion:* Using SQLAlchemy and pandas to store CSVs in SQLite.
@@ -40,14 +50,4 @@ Vendor-Performance-Analysis/\
 4. *Dashboard Design*\
 Each visual ties back to analytical findings derived in Python, providing a real-time, interactive representation of vendor performance.
 <img width="1295" height="730" alt="Screenshot Dashboard" src="https://github.com/user-attachments/assets/39d1efba-b8ac-4bf4-b6a3-18ccf52454ae" />
-
-
-# Tech Stack
-| Category             | Tools Used                                         |
-|----------------------|----------------------------------------------------|
-| Programming & Analysis | Python (Pandas, NumPy, Seaborn, Matplotlib)      |
-| Database             | SQLite via SQLAlchemy                              |
-| Visualization        | Power BI                                           |
-| Scripting            | Python-based data ingestion                        |
-| Statistical Testing  | Confidence intervals, t-tests                      |
 
